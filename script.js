@@ -248,7 +248,7 @@ form.addEventListener("submit", function (e) {
         return;
     }
 
-    fetch("send.php", {
+fetch("https://grandbudcontrol-bot.grandbudcontrol.workers.dev/", {
     method: "POST",
     headers: {
         "Content-Type": "application/json"
