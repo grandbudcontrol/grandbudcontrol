@@ -523,7 +523,7 @@
 
             <a href="#projects">Проєкти</a>
 
-            <a href="#contacts">Контакти</a>
+            <a href="privacy-policy.html">Політика конфіденційності</a>
           </div>
 
           <div>
@@ -579,12 +579,22 @@
             <option>Консалтинг</option>
           </select>
 
-          <textarea
-            name="message"
-            placeholder="Коротко опишіть проєкт"
-          ></textarea>
+        <textarea
+  name="message"
+  placeholder="Коротко опишіть проєкт"
+></textarea>
 
-          <button class="btn" type="submit">Надіслати заявку</button>
+<label class="privacy-consent">
+  <input type="checkbox" name="privacy" required>
+  <span>
+    Погоджуюсь на обробку персональних даних відповідно до
+    <a href="privacy-policy.html" target="_blank" rel="noopener">
+      Політики конфіденційності
+    </a>.
+  </span>
+</label>
+
+<button class="btn" type="submit">Надіслати заявку</button>
         </form>
       </div>
     </div>

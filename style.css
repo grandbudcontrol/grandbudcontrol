@@ -1457,3 +1457,37 @@ RESPONSIVE
     }
 
 }
+
+.privacy-consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--text-light);
+    cursor: pointer;
+}
+
+.privacy-consent input {
+    width: 17px;
+    height: 17px;
+    margin-top: 2px;
+    flex: 0 0 17px;
+    accent-color: var(--primary);
+    cursor: pointer;
+}
+
+.privacy-consent span {
+    display: block;
+}
+
+.privacy-consent a {
+    color: var(--primary);
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.privacy-consent a:hover {
+    color: var(--primary-dark);
+}
